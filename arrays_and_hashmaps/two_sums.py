@@ -12,10 +12,6 @@ def two_sum(nums, target):
     return []
 
 
-def two_sum_naive(nums, target):
-    return two_sum(nums, target)
-
-
 # Example usage
 if __name__ == "__main__":
     numbers = [2, 7, 11, 15]
