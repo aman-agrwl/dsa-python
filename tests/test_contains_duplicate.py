@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from arrays_and_hashmaps.contains_duplicate import contains_duplicate
 
 
@@ -17,4 +22,8 @@ def test_contains_duplicate_cases():
 
         # Validate output against expected result
         assert result == expected, f"Failed: '{description}' | Got {result}, expected {expected}"
-    		print(f"✓ Passed: {description}")
+        print(f"Passed: {description}")
+
+
+if __name__ == "__main__":
+    test_contains_duplicate_cases()
