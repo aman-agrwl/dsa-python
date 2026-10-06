@@ -1,3 +1,12 @@
+# Problem Statement
+# Given two strings, s1 and s2, determine whether s2 is an anagram of s1.
+# Two strings are anagrams if they contain the same characters with the same
+# frequency. Character matching is case-sensitive.
+#
+# Examples:
+#   s1 = "anagram", s2 = "nagaram" -> True
+#   s1 = "rat", s2 = "car"         -> False
+
 def valid_anagram(s1: str, s2: str):
   if len(s1) != len(s2):
     return False
