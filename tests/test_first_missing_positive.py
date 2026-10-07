@@ -8,6 +8,7 @@ from arrays_and_hashmaps.first_missing_positive import first_missing_pos
 
 test_cases = [
     ([1, 2, 0], 3, "Missing value after a sequence"),
+    ([2, 1], 3, "Consecutive values in unsorted order"),
     ([3, 4, -1, 1], 2, "Mixed positive and negative values"),
     ([7, 8, 9, 11, 12], 1, "Smallest positive value is missing"),
     ([], 1, "Empty array"),
